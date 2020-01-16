@@ -1,0 +1,10 @@
+{
+    "name": "7is Data Application",
+    "version": "1.0",
+    "description": "Show All My Todos in this Apllication and Manage Them All !!!",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "images/Logo.png"
+    }
+}

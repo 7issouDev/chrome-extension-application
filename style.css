@@ -1,0 +1,115 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   font-size: 15px;
+}
+
+/* framework */
+body {
+   width:400px;
+   height:600px;
+   font-family: 'Roboto Slab', serif;
+}
+
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+}
+
+.pointer {
+   cursor: pointer;
+}
+
+/* scroll view style */
+body::-webkit-scrollbar {
+  width: 6px;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+/* header part about all elements */
+.header-part{
+   width: 100%;
+   min-height: 60px;
+   border-bottom: 1px solid #bdc3c7;
+   z-index: 1000;
+   position: fixed;
+   background: #FFF;
+   top: 0;
+   left: 0;
+}
+
+.header-part h3 {
+   font-weight: bold;
+}
+
+.header-part p {
+   font-size: 10px;
+   color: #7f8c8d;
+   font-weight: bold;
+}
+
+/* todos are here */
+.todos {
+   margin: 120px 0 50px 0;
+}
+
+.todo h1{
+   font-size: 15px;
+   font-weight: bold;
+   line-height: 1.5;
+}
+
+.todo p{
+   font-size: 10px;
+   text-align: justify;
+   line-height: 1.8;
+   text-indent: 10px;
+}
+
+/* todos options */
+.todos-options{
+   margin: 40px 0;
+}
+
+.modal-dialog {
+   min-height: calc(100vh - 60px);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   overflow: auto;
+}
+
+@media(max-width: 768px) {
+   .modal-dialog {
+      min-height: calc(100vh - 20px);
+   }
+}
+
+/* add new todo in here */
+.add-todo-modal .input[type="text"]{
+   font-size: 12px !important;
+}
+
+/* todo-categories */
+.todo-categories span{
+   font-size: 8px;
+   font-weight: bold;
+   margin: 0px 10px;
+}

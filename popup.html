@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>hello world</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header-part pt-3 pb-2">
+        <h3 class="text-center"><img src="images/logo.png" alt="Logo" width="20%" srcset="images/logo.png"></h3>
+        <p class="text-center">7issou Motivation about Chrome extension</p cla>
+    </div>
+    <hr>
+    <div class="todos">
+        <div class="container">
+            <div class="todos-options">
+                <div class="row">
+                    <div class="col-6">
+                        <i class="fa fa-bars pointer" data-toggle="modal" data-target="#showMenuChoices"></i>
+                    </div>
+                    <div class="col-6">
+                        <div class="button-group text-right">
+                            <div class="btn btn-sm btn-warning" data-toggle="modal" data-target="#myModal">Add Todo</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="todo mb-4">
+                <h1>My First Todo Element I use A lot of my experience to write this application about me and my tricks.</h1>
+                <div class="todo-categories my-2">
+                    <span>Category #1</span>
+                    <span>Category #2</span>
+                    <span>Category #3</span>
+                </div>
+                <p class="px-2 pt-2">in here i put some description about this todo. with Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, numquam dolorem totam fuga officia excepturi sit officiis cupiditate amet reiciendis error atque quis, iste mollitia.</p>
+                <div class="text-right">
+                    <button class="btn btn-sm btn-primary">Watch Todo</button>
+                </div>
+            </div>
+            <div class="todo mb-4">
+                <h1>My First Todo Element I use A lot of my experience to write this application about me and my tricks.</h1>
+                <p class="px-2 pt-2">in here i put some description about this todo. with Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Consequuntur, numquam dolorem totam fuga officia excepturi sit officiis cupiditate amet
+                    reiciendis error atque quis, iste mollitia.</p>
+                <div class="text-right">
+                    <button class="btn btn-sm btn-primary">Watch Todo</button>
+                </div>
+            </div>
+            <div class="todo mb-4">
+                <h1>My First Todo Element I use A lot of my experience to write this application about me and my tricks.</h1>
+                <p class="px-2 pt-2">in here i put some description about this todo. with Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Consequuntur, numquam dolorem totam fuga officia excepturi sit officiis cupiditate amet
+                    reiciendis error atque quis, iste mollitia.</p>
+                <div class="text-right">
+                    <button class="btn btn-sm btn-primary">Watch Todo</button>
+                </div>
+            </div>
+            <div class="todo mb-4">
+                <h1>My First Todo Element I use A lot of my experience to write this application about me and my tricks.</h1>
+                <p class="px-2 pt-2">in here i put some description about this todo. with Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Consequuntur, numquam dolorem totam fuga officia excepturi sit officiis cupiditate amet
+                    reiciendis error atque quis, iste mollitia.</p>
+                <div class="text-right">
+                    <button class="btn btn-sm btn-primary">Watch Todo</button>
+                </div>
+            </div>
+            <div class="todo mb-4">
+                <h1>My First Todo Element I use A lot of my experience to write this application about me and my tricks.</h1>
+                <p class="px-2 pt-2">in here i put some description about this todo. with Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Consequuntur, numquam dolorem totam fuga officia excepturi sit officiis cupiditate amet
+                    reiciendis error atque quis, iste mollitia.</p>
+                <div class="text-right">
+                    <button class="btn btn-sm btn-primary">Watch Todo</button>
+                </div>
+            </div>
+            <div class="todo mb-3">
+                <h1>My First Todo Element I use A lot of my experience to write this application about me and my tricks.</h1>
+                <p class="px-2 pt-2">in here i put some description about this todo. with Lorem ipsum dolor sit, amet consectetur
+                    adipisicing elit. Consequuntur, numquam dolorem totam fuga officia excepturi sit officiis cupiditate amet
+                    reiciendis error atque quis, iste mollitia.</p>
+                <div class="text-right">
+                    <button class="btn btn-sm btn-primary">Watch Todo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal element start right here -->
+    <div class="modal add-todo-modal" tabindex="-1" role="dialog" id="myModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Add New Todo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="#" method="#">
+                        <div class="form-group">
+                            <label for="todoTitle">Todo Title</label>
+                            <input type="text" class="form-control" id="todoTitle" name="todoTitle" placeholder="Enter todo title">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Todo Description</label>
+                            <textarea name="todoDescription" rows="6" class="form-control" id="todoDescription" placeholder="Enter todo description"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning">Add New Todo</button>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal element finish right here -->
+    
+    <!-- show choices -->
+    <div class="modal" tabindex="-1" role="dialog" id="showMenuChoices">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Menu choices</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    in here we'll put choices
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end choices -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
